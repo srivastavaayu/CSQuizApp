@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navgroupitem_Play"
+        android:title="Play">
+
+        <menu>
+
+            <group
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/navitem_ProgrammingQuiz"
+                    android:title="Programming Quiz"/>
+
+                <item
+                    android:id="@+id/navitem_DevelopmentQuiz"
+                    android:title="Development Quiz"/>
+
+                <item
+                    android:id="@+id/navitem_OperatingSystemsQuiz"
+                    android:title="Operating Systems Quiz"/>
+
+                <item
+                    android:id="@+id/navitem_NetworkingQuiz"
+                    android:title="Networking Quiz"/>
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/navgroupitem_About"
+        android:title="About">
+
+        <menu>
+
+            <group
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/navitem_LogOut"
+                    android:title="Log Out"
+                    android:checkable="false"/>
+
+                <item
+                    android:id="@+id/navitem_AboutUs"
+                    android:title="About Us"/>
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>
